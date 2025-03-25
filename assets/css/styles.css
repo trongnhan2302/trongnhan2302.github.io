@@ -74,7 +74,7 @@ section {
 
 .hero-content {
     flex: 1;
-    animation: slideInLeftFade 10s ease-out 2s forwards;
+    animation: slideInLeftFade 5s ease-out 1s forwards;
 }
 
 .hero-content h1 {
@@ -90,7 +90,7 @@ section {
 .hero-image {
     flex: 1;
     text-align: center;
-    animation: slideInLeftFade 10s ease-out 4s forwards;
+    animation: slideInLeftFade 3s ease-out 3s forwards;
 }
 
 .hero-image img {
