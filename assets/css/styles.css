@@ -74,6 +74,7 @@ section {
 
 .hero-content {
     flex: 1;
+    animation: slideInLeftFade 1s ease-out 0.5s forwards; /* hieu ung ro dan*/
 }
 
 .hero-content h1 {
@@ -266,5 +267,16 @@ footer {
 
     .projects-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@keyframes slideInLeftFade {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px); /* Bắt đầu từ bên trái 50px */
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0); /* Kết thúc ở vị trí ban đầu */
     }
 }
