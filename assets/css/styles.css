@@ -74,7 +74,7 @@ section {
 
 .hero-content {
     flex: 1;
-    animation: slideInLeftFade 10s ease-out 3s forwards;
+    animation: slideInLeftFade 10s linear 3s forwards;
 }
 
 .hero-content h1 {
