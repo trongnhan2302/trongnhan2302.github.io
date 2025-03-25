@@ -74,7 +74,7 @@ section {
 
 .hero-content {
     flex: 1;
-    animation: slideInLeftFade 1s ease-out 0.5s forwards; /* Thêm dòng này */
+    animation: slideInLeftFade 2s ease-out 0.5s forwards; /* Thêm dòng này */
 }
 
 .hero-content h1 {
