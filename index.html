@@ -1,69 +1,120 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio của bạn</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Portfolio Của Bạn</div>
+            <ul>
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#skills">Kỹ năng</a></li>
+                <li><a href="#projects">Dự án</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
 
-      <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Xin chào, tôi là [Tên của bạn]</h1>
+            <p>Tôi là một [Nghề nghiệp của bạn] đam mê với [Lĩnh vực bạn quan tâm].</p>
+            <a href="#projects" class="button">Xem dự án của tôi</a>
+        </div>
+        <div class="hero-image">
+            <img src="assets/img/profile.jpg" alt="Hình ảnh của bạn">
+        </div>
+    </section>
 
-      <!--=============== REMIXICONS ===============-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+    <section id="about" class="about">
+        <h2>Giới thiệu về tôi</h2>
+        <p>Đây là một đoạn giới thiệu ngắn gọn về bạn. Hãy nói về kinh nghiệm làm việc, học vấn, và những điều khiến bạn đặc biệt. Bạn có thể thêm nhiều chi tiết hơn ở đây.</p>
+        <p>Tôi có kinh nghiệm trong [Liệt kê các kinh nghiệm chính]. Tôi luôn tìm kiếm những thử thách mới và cơ hội để học hỏi và phát triển.</p>
+        <div class="about-details">
+            <div><strong>Tuổi:</strong> [Tuổi của bạn]</div>
+            <div><strong>Email:</strong> [Địa chỉ email của bạn]</div>
+            <div><strong>Địa điểm:</strong> [Địa điểm của bạn]</div>
+        </div>
+        <a href="#" class="button">Tải CV</a>
+    </section>
 
-      <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/styles.css">
+    <section id="skills" class="skills">
+        <h2>Kỹ năng của tôi</h2>
+        <div class="skills-list">
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;">90%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;">85%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;">70%</div>
+                </div>
+            </div>
+            </div>
+    </section>
 
-      <title>Responsive portfolio website Rian - Bedimcode</title>
-   </head>
-   <body>
-      <!--==================== HEADER ====================-->
-      <header class="header" id="header">
-         
-      </header>
+    <section id="projects" class="projects">
+        <h2>Dự án của tôi</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="assets/img/project1.jpg" alt="Dự án 1">
+                <h3>Tên dự án 1</h3>
+                <p>Mô tả ngắn gọn về dự án 1.</p>
+                <a href="#" class="button">Xem chi tiết</a>
+            </div>
+            <div class="project-card">
+                <img src="assets/img/project2.jpg" alt="Dự án 2">
+                <h3>Tên dự án 2</h3>
+                <p>Mô tả ngắn gọn về dự án 2.</p>
+                <a href="#" class="button">Xem chi tiết</a>
+            </div>
+            <div class="project-card">
+                <img src="assets/img/project3.jpg" alt="Dự án 3">
+                <h3>Tên dự án 3</h3>
+                <p>Mô tả ngắn gọn về dự án 3.</p>
+                <a href="#" class="button">Xem chi tiết</a>
+            </div>
+            </div>
+    </section>
 
-      <!--==================== MAIN ====================-->
-      <main class="main">
-         <!--==================== HOME ====================-->
-         <section class="home section" id="home">
-            
-         </section>
+    <section id="contact" class="contact">
+        <h2>Liên hệ với tôi</h2>
+        <p>Bạn có câu hỏi hoặc muốn hợp tác? Hãy liên hệ với tôi!</p>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Tên:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Tin nhắn:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="button">Gửi tin nhắn</button>
+        </form>
+    </section>
 
-         <!--==================== ABOUT ====================-->
-         <section class="about section" id="about">
-            
-         </section>
+    <footer>
+        <p>&copy; 2025 Portfolio của bạn. Tất cả các quyền được bảo lưu.</p>
+    </footer>
 
-         <!--==================== SERVICES ====================-->
-         <section class="services section">
-            
-         </section>
-
-         <!--==================== PROJECTS ====================-->
-         <section class="projects section" id="projects">
-            
-         </section>
-
-         <!--==================== CONTACT ====================-->
-         <section class="contact section" id="contact">
-            
-         </section>
-      </main>
-
-      <!--==================== FOOTER ====================-->
-      <footer class="footer">
-         
-      </footer>
-
-      <!--========== SCROLL UP ==========-->
-      
-
-      <!--=============== SCROLLREVEAL ===============-->
-      <script src=""></script>
-      
-      <!--=============== EMAIL JS ===============-->
-      
-
-      <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
-   </body>
+    <script src="assets/js/main.js"></script>
+</body>
 </html>
