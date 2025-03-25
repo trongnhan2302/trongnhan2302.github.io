@@ -74,17 +74,18 @@ section {
 
 .hero-content {
     flex: 1;
-    animation: slideInLeftFade 1s ease-out 0.5s forwards; /* Thêm dòng này */
 }
 
 .hero-content h1 {
     font-size: 3rem;
     margin-bottom: 10px;
+    animation: slideInLeftFade 1s ease-out 0.5s forwards;
 }
 
 .hero-content p {
     font-size: 1.2rem;
     margin-bottom: 20px;
+    animation: slideInLeftFade 2s ease-out 0.5s forwards;
 }
 
 .hero-image {
