@@ -79,7 +79,7 @@ section {
 .hero-content h1 {
     font-size: 3rem;
     margin-bottom: 10px;
-    animation: slideInLeftFade 4s ease-out 0.5s forwards;
+    animation: slideInLeftFade 10s ease-out 3s forwards;
 }
 
 .hero-content p {
