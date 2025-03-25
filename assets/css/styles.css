@@ -74,7 +74,7 @@ section {
 
 .hero-content {
     flex: 1;
-    animation: slideInLeftFade 10s linear 3s forwards;
+    animation: slideInLeftFade 10s linear 5s forwards;
 }
 
 .hero-content h1 {
@@ -90,6 +90,7 @@ section {
 .hero-image {
     flex: 1;
     text-align: center;
+    animation: slideInLeftFade 10s linear 5s forwards;
 }
 
 .hero-image img {
@@ -110,170 +111,7 @@ h2 {
 }
 
 .skills-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    margin-top: 30px;
-}
-
-.skill {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.skill h3 {
-    margin-bottom: 10px;
-}
-
-.progress-bar {
-    background-color: #ddd;
-    height: 20px;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.progress {
-    background-color: #5cb85c;
-    height: 100%;
-    color: #fff;
-    text-align: center;
-    line-height: 20px;
-    border-radius: 5px;
-}
-
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 30px;
-    margin-top: 30px;
-}
-
-.project-card {
-    background-color: #fff;
-    border-radius: 5px;
-    overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.project-card img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.project-card h3 {
-    padding: 15px;
-    margin-bottom: 0;
-}
-
-.project-card p {
-    padding: 0 15px 15px;
-}
-
-.contact form {
-    max-width: 600px;
-    margin: 30px auto 0;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-.form-group label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-.form-group input[type="text"],
-.form-group input[type="email"],
-.form-group textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-
-.form-group textarea {
-    resize: vertical;
-}
-
-.button {
-    display: inline-block;
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    border: none;
-    cursor: pointer;
-    font-size: 1rem;
-}
-
-.button:hover {
-    background-color: #0056b3;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-    position: sticky;
-    bottom: 0;
-    width: 100%;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .logo {
-        margin-bottom: 10px;
-    }
-
-    nav ul {
-        flex-direction: column;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-    }
-
-    .hero {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .hero-image {
-        order: -1;
-        margin-bottom: 20px;
-    }
-
-    .skills-list {
-        grid-template-columns: 1fr;
-    }
-
-    .projects-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-@keyframes slideInLeftFade {
-    0% {
-        opacity: 0;
-        transform: translateX(-50px); /* Bắt đầu từ bên trái 50px */
+    200px */
     }
     100% {
         opacity: 1;
